@@ -1,6 +1,6 @@
 # Sergio Eduardo Tepaz Vela — Portafolio personal
 
-Portafolio bilingüe de Sergio Eduardo Tepaz Vela, programador junior y estudiante de Ingeniería en Ciencias de la Computación y Tecnologías de la Información en la Universidad del Valle de Guatemala.
+Portafolio bilingüe de Sergio Eduardo Tepaz Vela, desarrollador y estudiante de Ingeniería en Ciencias de la Computación y Tecnologías de la Información en la Universidad del Valle de Guatemala.
 
 El sitio presenta experiencia profesional, proyectos de software, conocimientos técnicos, certificaciones verificadas, reconocimientos académicos y medios de contacto.
 

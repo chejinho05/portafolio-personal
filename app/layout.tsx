@@ -20,9 +20,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sergio Tepaz — Junior Developer",
+  title: "Sergio Tepaz — Developer",
   description:
-    "Portfolio of Sergio Eduardo Tepaz Vela, Junior Developer and Computer Science and IT Engineering student.",
+    "Portfolio of Sergio Eduardo Tepaz Vela, Developer and Computer Science and IT Engineering student.",
   icons: {
     icon: "/logo.svg",
   },
