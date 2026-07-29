@@ -1,103 +1,149 @@
-# Carlos Altán — Developer Portfolio
+# Sergio Eduardo Tepaz Vela — Portafolio personal
 
-Personal portfolio for Carlos Altán, Full Stack Developer and Computer Science student at Universidad del Valle de Guatemala (UVG). This portfolio highlights selected projects, certifications, experience, and contact details in a bilingual UI.
+Portafolio bilingüe de Sergio Eduardo Tepaz Vela, programador junior y estudiante de Ingeniería en Ciencias de la Computación y Tecnologías de la Información en la Universidad del Valle de Guatemala.
 
----
+El sitio presenta experiencia profesional, proyectos de software, conocimientos técnicos, certificaciones verificadas, reconocimientos académicos y medios de contacto.
 
-## Features
+![Vista de Nodeflix](./public/assets/images/nodeflix.png)
 
-- **Dark / Light theme** — system-aware with manual toggle
-- **EN / ES bilingual support** — custom locale provider without external i18n dependencies
-- **IDE-inspired navigation** — file tree sidebar on desktop, responsive bottom navigation on mobile
-- **GitHub API integration** — server-side API route fetches repo stats and project metadata
-- **Featured projects** — includes GuateVigila and Weather Way among highlighted work
-- **Certifications page** — updated with real certification data and preview cards
-- **Responsive layout** — mobile-first design with polished desktop experience
+## Características
 
----
+- Interfaz disponible en español e inglés.
+- Temas claro y oscuro con preferencia persistente.
+- Diseño bento responsivo para escritorio y dispositivos móviles.
+- Navegación inspirada en un explorador de archivos.
+- CV descargable en PDF.
+- Galería de proyectos con repositorios de frontend y backend.
+- Visualizador integrado de certificados y diplomas.
+- Enlaces directos a correo, GitHub, LinkedIn y WhatsApp.
 
-## Tech Stack
+## Perfil
 
-| Layer | Technology |
+Sergio cuenta con formación técnica como Perito en Informática y actualmente estudia Ingeniería en Ciencias de la Computación y Tecnologías de la Información en la UVG. Sus áreas de interés incluyen desarrollo web, bases de datos y despliegue de aplicaciones en la nube.
+
+### Experiencia
+
+**Forza Delivery Express — Practicante profesional**  
+Agosto de 2024 a octubre de 2024.
+
+- Soporte técnico para aplicaciones internas.
+- Desarrollo de una API REST con .NET para gestión de inventarios.
+- Diseño de bases de datos relacionales con SQL Server.
+- Implementación de interfaces administrativas con Angular.
+
+## Proyectos
+
+| Proyecto | Año | Tecnologías principales | Repositorios |
+|---|---:|---|---|
+| Nodeflix | 2026 | Angular, Node.js, Neo4j, TypeScript, TMDB API | [Frontend](https://github.com/stepaz-2022164/nodeflix-front) · [Backend](https://github.com/stepaz-2022164/nodeflix-back) |
+| Bitcoin Script Interpreter | 2026 | Java, Maven, Bitcoin Script, criptografía | [Código](https://github.com/stepaz-2022164/BitcoinProject) |
+| Gestor de Notas | 2025 | Python, Flask, MongoDB, HTML, CSS | [Código](https://github.com/stepaz-2022164/GestorNotas) |
+| InventarioTEC | 2024 | Angular, TypeScript, C#, .NET 8, SQL Server | [Frontend](https://github.com/stepaz-2022164/InventarioTEC-front) · [Backend](https://github.com/stepaz-2022164/InventarioTEC-back) |
+| Banca en Línea | 2024 | React, Vite, Node.js, JWT, Tailwind CSS | [Backend](https://github.com/Chejinos-Kinal/online-bank-backend) |
+| UVG Canvas Dashboard | 2025 | Java, Spring Boot, Maven, Canvas LMS API | [Código](https://github.com/bcastillo-2022474/uvg-dashboard-canvas) |
+
+Nodeflix es el proyecto destacado actual. Utiliza una base de datos orientada a grafos y un algoritmo de random walk para generar recomendaciones personalizadas de películas y series.
+
+## Conocimientos técnicos
+
+- **Lenguajes y fundamentos:** JavaScript, TypeScript, Python, C#, HTML y CSS.
+- **Frameworks y entornos:** React, Angular, Node.js, Flask y .NET.
+- **Bases de datos:** SQL Server, MySQL, MongoDB, Firebase y Firestore.
+- **Nube:** Google Cloud, Cloud Run, IAM y gsutil.
+
+## Certificaciones y reconocimientos
+
+- Diploma de Estudiante Distinguido — Universidad del Valle de Guatemala, 2026.
+- Diploma a la Excelencia Académica — Fundación Juan Bautista Gutiérrez, 2026.
+- Beca Isabel Gutiérrez de Bosch — Fundación Juan Bautista Gutiérrez, 2024.
+- Desarrollo de Aplicaciones para Android — INTECAP, 2022.
+- Programación PHP y Conexión a Bases de Datos — INTECAP, 2022.
+- MySQL para Principiantes — INTECAP, 2021.
+- Microsoft Excel Intermedio — INTECAP, 2022.
+
+## Tecnologías del portafolio
+
+| Capa | Tecnología |
 |---|---|
-| Framework | Next.js 16 (App Router) |
-| UI Library | React 19 |
-| Language | TypeScript |
-| Styling | Tailwind CSS v4 + custom CSS |
-| Animations | Framer Motion, GSAP |
-| Routing | Next.js App Router |
-| Deployment | Vercel or any Next.js host |
+| Framework | Next.js 16 con App Router |
+| Interfaz | React 19 |
+| Lenguaje | TypeScript |
+| Estilos | Tailwind CSS 4 y CSS personalizado |
+| Animaciones | Framer Motion y GSAP |
+| Componentes auxiliares | clsx y tailwind-merge |
 
----
+## Ejecución local
 
-## Getting Started
+### Requisitos
 
-### Prerequisites
+- Node.js 20.9 o superior.
+- npm.
 
-- Node.js 18 or later
-- npm, yarn, or pnpm
-
-### Installation
+### Instalación
 
 ```bash
-git clone https://github.com/carlosaltan18/my-portfolio.git
-cd my-portfolio
 npm install
 ```
 
-### Run Locally
+### Desarrollo
 
 ```bash
 npm run dev
 ```
 
-Then open http://localhost:3000.
+Abre [http://localhost:3000](http://localhost:3000) en el navegador.
 
----
+### Compilación de producción
 
-## Project Structure
-
-```
-├── app/                    # Next.js App Router pages and API routes
-│   ├── api/                # GitHub proxy route and server helpers
-│   ├── certifications/     # Certifications page
-│   ├── contact/            # Contact page
-│   ├── projects/           # Projects page
-│   ├── stack/              # Tech stack page
-│   ├── globals.css         # Global styles and design tokens
-│   ├── layout.tsx          # Root layout and metadata
-│   └── page.tsx            # Home page
-├── components/             # Shared React components
-│   ├── BentoCard.tsx       # Card wrapper with animations
-│   ├── FileTreeNav.tsx     # Sidebar navigation tree
-│   ├── BottomNav.tsx       # Mobile navigation bar
-│   ├── FeaturedProject.tsx # Featured project section
-│   ├── Hero.tsx            # Hero intro section
-│   └── PreferencesProvider.tsx  # Theme and locale provider
-├── lib/
-│   └── github.ts           # GitHub utilities and project mapping
-└── public/
-    └── assets/             # Images, CV PDF, and static media
+```bash
+npm run build
+npm run start
 ```
 
+## Rutas
+
+| Ruta | Contenido |
+|---|---|
+| `/` | Presentación, stack resumido, proyecto destacado, experiencia y contacto |
+| `/projects` | Galería completa de proyectos |
+| `/stack` | Conocimientos técnicos detallados |
+| `/certifications` | Certificaciones y reconocimientos con documentos PDF |
+| `/contact` | CV y medios de contacto |
+
+## Estructura principal
+
+```text
+app/
+├── certifications/
+├── contact/
+├── projects/
+├── stack/
+├── globals.css
+├── layout.tsx
+└── page.tsx
+
+components/
+├── FeaturedProject.tsx
+├── GithubProjectsGrid.tsx
+├── Hero.tsx
+├── ProjectCard.tsx
+├── ProjectPreview.tsx
+└── PreferencesProvider.tsx
+
+public/assets/
+├── certificaciones/
+├── images/
+├── CV.pdf
+└── Gra.jpeg
+```
+
+## Contacto
+
+- **Correo:** [sergio.tepaz2005@gmail.com](mailto:sergio.tepaz2005@gmail.com)
+- **GitHub:** [stepaz-2022164](https://github.com/stepaz-2022164)
+- **LinkedIn:** [Sergio Eduardo Tepaz Vela](https://www.linkedin.com/in/sergio-eduardo-tepaz-vela-a5571131a)
+- **WhatsApp:** [+502 4060 5562](https://wa.me/50240605562)
+
 ---
 
-## Deployment
-
-Deploy on Vercel or any Next.js-compatible host. Add a GitHub token to the environment for more stable GitHub API usage.
-
----
-
-## About
-
-Carlos Altán — Full Stack Developer
-
-- Computer Science student at Universidad del Valle de Guatemala (UVG)
-- Featured projects: GuateVigila, Weather Way, EarthWay, ASIGBO
-- Focused on TypeScript, Next.js, and smooth developer experiences
-
----
-
-## License
-
-MIT
+© 2026 Sergio Eduardo Tepaz Vela
