@@ -8,7 +8,7 @@ El sitio presenta experiencia profesional, proyectos de software, conocimientos 
 
 ## Características
 
-- Interfaz disponible en español e inglés.
+- Interfaz disponible en español e inglés, con español como idioma inicial.
 - Temas claro y oscuro con preferencia persistente.
 - Diseño bento responsivo para escritorio y dispositivos móviles.
 - Navegación inspirada en un explorador de archivos.

@@ -22,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Sergio Tepaz — Developer",
   description:
-    "Portfolio of Sergio Eduardo Tepaz Vela, Developer and Computer Science and IT Engineering student.",
+    "Portafolio de Sergio Eduardo Tepaz Vela, desarrollador y estudiante de Ingeniería en Ciencias de la Computación y Tecnologías de la Información.",
   icons: {
     icon: "/logo.svg",
   },
@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${interTight.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
+    <html lang="es" className={`${interTight.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
       <body className="antialiased">
         <PreferencesProvider>
           <div className="ambient" />

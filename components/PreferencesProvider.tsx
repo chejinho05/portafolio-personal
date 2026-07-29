@@ -24,7 +24,7 @@ function normalizeTheme(value: string | null): Theme {
 }
 
 function normalizeLocale(value: string | null): Locale {
-  return value === "es" || value === "en" ? value : "en";
+  return value === "es" || value === "en" ? value : "es";
 }
 
 function subscribe(callback: () => void) {
@@ -54,7 +54,7 @@ function getServerThemeSnapshot(): Theme {
 }
 
 function getServerLocaleSnapshot(): Locale {
-  return "en";
+  return "es";
 }
 
 export function PreferencesProvider({ children }: { children: React.ReactNode }) {
