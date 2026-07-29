@@ -6,8 +6,11 @@ import { usePreferences } from "./PreferencesProvider";
 const certifications = [
   { nameEn: "Distinguished Student", nameEs: "Estudiante Distinguido", org: "UVG", badge: "UVG" },
   { nameEn: "Academic Excellence", nameEs: "Excelencia Académica", org: "Fundación JBG", badge: "JBG" },
+  { nameEn: "Isabel Gutiérrez de Bosch Scholarship", nameEs: "Beca Isabel Gutiérrez de Bosch", org: "Fundación JBG", badge: "JBG" },
   { nameEn: "Android App Development", nameEs: "Desarrollo Android Studio", org: "INTECAP", badge: "AND" },
   { nameEn: "PHP & Databases", nameEs: "PHP y Bases de Datos", org: "INTECAP", badge: "PHP" },
+  { nameEn: "MySQL for Beginners", nameEs: "MySQL para Principiantes", org: "INTECAP", badge: "SQL" },
+  { nameEn: "Microsoft Excel Intermediate", nameEs: "Microsoft Excel Intermedio", org: "INTECAP", badge: "XLS" },
 ];
 
 import { clsx } from "clsx";
